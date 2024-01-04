@@ -1,5 +1,7 @@
 
-## Danone Hackathon - neural network
+## Danone Hackathon - Neural Network
+
+The task is to predict future sales during the unstable Covid-19 period.
 
 ### Steps:
 
@@ -11,17 +13,15 @@
 - We build and train a model (MLP), define an optimizer and a loss function
 - Analyze training indicators and save the model
 
-## Kaggle Competition - ML model
+## Kaggle Competition - Logistic regression & XGBoost
 
-We need to forecast the number of good which will be sold in each shop next month.
-
-Link https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview
+The task is to forecast the number of goods which will be sold in each shop next month.
 
 ### Steps:
 
 - Data preprocessing and adding features
 - Adding lag features (since time-series data)
-- Splitting to test, validation, train
+- Splitting to train, validation and test
 - Build and test models:
      - Logistic regression
      - XGBoost with cross-validation to select the best hyper-parameters
